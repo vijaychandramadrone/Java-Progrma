@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript" src="modernizr.custom.58332.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+if(!Modernizr.input.placeholder){
+	alert(Modernizr.input.placeholder);
+}
+});
+function displayDate()
+{
+var login = ($('#username').val());
+alert(login);
+}
+</script>
+</head>
+<body>
+<form name="login">
+&nbsp; <input type="text" placeholder="loginname" name="user" id="username"/><br><br>
+<input type="password" placeholder="password" name="pass"/>
+<button type="button" onclick="displayDate()">save</button>
+</form>
+</body>
+</html>

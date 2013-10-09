@@ -1,0 +1,7 @@
+2013-05-05 13:22:57,808 TRACE LogClass:8 - Trace
+2013-05-05 13:22:57,820 DEBUG LogClass:9 - Debug
+2013-05-05 13:22:57,821  INFO LogClass:10 - Info
+2013-05-05 13:22:57,821  WARN LogClass:11 - Warn
+2013-05-05 13:22:57,822 ERROR LogClass:12 - Error
+2013-05-05 13:23:06,383  INFO LogClass:13 - Info details
+2013-05-05 13:23:06,384 FATAL LogClass:14 - Fatal

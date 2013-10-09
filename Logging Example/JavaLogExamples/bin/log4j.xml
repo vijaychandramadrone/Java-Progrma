@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration>
+    <appender name="file" class="org.apache.log4j.RollingFileAppender">
+    <param name="file" value="E:\\Java Programes\\Logging Example\\JavaLogExamples\\logs\\myinvalid-logins.log" />
+    <param name="maxFileSize" value="8KB" />
+    <param name="maxBackupIndex" value="5" />
+    <param name="threshold" value="info" />
+    <layout class="org.apache.log4j.PatternLayout">
+       <param name="ConversionPattern" value="%d{ISO8601} %5p %c{1}:%L - %m%n"/>
+    </layout>
+  </appender>
+  
+<!--  <appender name="dailyfile" class="org.apache.log4j.DailyRollingFileAppender">
+    <param name="file" value="E:\\Java Programes\\Logging Example\\JavaLogExamples\\logs\\myDaily-invalid-logins.log" />
+    <param name="threshold" value="all" />
+    <param name="DatePattern" value="'.'yyyy-MM" />
+    <layout class="org.apache.log4j.PatternLayout">
+       <param name="ConversionPattern" value="%d{ISO8601} %5p %c{1}:%L - %m%n"/>
+    </layout>
+  </appender> -->
+  
+  <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ISO8601} %-5p [%c{1}:%L] %m%n" />
+		</layout>
+	</appender>
+	
+<!-- 	<appender name="MAIL" class="de.laliluna.logexample.GmailSMTPAppender">
+		<param name="BufferSize" value="10" />
+		<param name="SMTPHost" value="smtp.gmail.com" />
+		<param name="SMTPPort" value="567" />
+		<param name="From" value="007vijaychandra007@gmail.com" />
+		<param name="To" value="007vijaychandra007@gmail.com" />
+		<param name="Subject" value="This is computer generated mail" />
+		<param name="SMTPUsername" value="007vijaychandra007@gmail.com" />
+		<param name="SMTPPassword" value="jacintharani1985" />
+		<param name="threshold" value="error" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender> -->
+	
+  <root>
+       <priority value="all"></priority>
+       <!-- <appender-ref ref="file" /> -->
+       <appender-ref ref="CONSOLE" />
+       <appender-ref ref="dailyfile" />
+       <appender-ref ref="MAIL" />
+   </root>
+</log4j:configuration>

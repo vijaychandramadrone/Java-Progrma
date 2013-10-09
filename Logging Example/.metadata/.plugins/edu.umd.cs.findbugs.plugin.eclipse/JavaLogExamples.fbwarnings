@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="2" timestamp="1361188897956" analysisTimestamp="1361188896815" release="">
+  <Project projectName="JavaLogExamples">
+    <Jar>E:\Java Programes\Logging Example\JavaLogExamples\bin\de\laliluna\logexample\NullException.class</Jar>
+    <AuxClasspathEntry>E:\Java Programes\Logging Example\JavaLogExamples\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\Java Programes\Logging Example\LogExample\log4j-1.2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\ProjectCRPortal\SunRun r1_s4_pd\MadronePortal\Liferay\bundles\liferay-portal-6.0.6\tomcat-6.0.29\webapps\ROOT\WEB-INF\lib\GmailSMTPAppender.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\Java Programes\Logging Example\javamail-1.4.4\mail.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>E:\Java Programes\Logging Example\JavaLogExamples\activation.jar</AuxClasspathEntry>
+    <SrcDir>E:\Java Programes\Logging Example\JavaLogExamples\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="NM_CLASS_NOT_EXCEPTION" priority="2" abbrev="Nm" category="BAD_PRACTICE" first="1">
+    <Class classname="de.laliluna.logexample.NullException">
+      <SourceLine classname="de.laliluna.logexample.NullException" start="3" end="22" sourcefile="NullException.java" sourcepath="de/laliluna/logexample/NullException.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 18 Feb 2013 17:31:31 +0530" total_classes="1" referenced_classes="10" total_bugs="1" total_size="13" num_packages="1" vm_version="20.7-b02" cpu_seconds="3.35" clock_seconds="1.15" peak_mbytes="301.81" alloc_mbytes="455.12" gc_seconds="0.02" priority_2="1">
+    <PackageStats package="de.laliluna.logexample" total_bugs="1" total_types="1" total_size="13" priority_2="1">
+      <ClassStats class="de.laliluna.logexample.NullException" sourceFile="NullException.java" interface="false" size="13" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="328" invocations="2" avgMicrosecondsPerInvocation="164161" maxMicrosecondsPerInvocation="305268" standardDeviationMircosecondsPerInvocation="141107"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="295" invocations="270" avgMicrosecondsPerInvocation="1094" maxMicrosecondsPerInvocation="32745" standardDeviationMircosecondsPerInvocation="2542"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="246" invocations="272" avgMicrosecondsPerInvocation="907" maxMicrosecondsPerInvocation="1736" standardDeviationMircosecondsPerInvocation="180"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1361188293923" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1361188293950" release="" codeSize="112" numClasses="6"/>
+  </History>
+</BugCollection>

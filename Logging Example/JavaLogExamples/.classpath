@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="E:/Java Programes/Logging Example/LogExample/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="E:/ProjectCRPortal/SunRun r1_s4_pd/MadronePortal/Liferay/bundles/liferay-portal-6.0.6/tomcat-6.0.29/webapps/ROOT/WEB-INF/lib/GmailSMTPAppender.jar"/>
+	<classpathentry kind="lib" path="E:/Java Programes/Logging Example/javamail-1.4.4/mail.jar"/>
+	<classpathentry kind="lib" path="E:/Java Programes/Logging Example/JavaLogExamples/activation.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
